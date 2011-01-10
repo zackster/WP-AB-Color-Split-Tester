@@ -37,28 +37,30 @@ function bool_statistically_significant($visitors1, $conversions1, $visitors2, $
 }
 
 
+
+
+// 
+// <script type="text/javascript" src="jquery.js"></script>
+// <script type="text/javascript">
+// $(document).ready(function() {
+// /*	$("a").not(".preset_color").click(function(x) {
+// 		console.log(x);
+// 	});*/
+// 
+// 	$("a").not('a[target=_blank]').click(function(event) { // normal link		
+// 		event.preventDefault();  //stop the link from going through
+// 		data = new Object();
+// 		data['treatment'] = '{$treatment}';
+// 		$.post('clicklogger.php',data,function() {
+// 			window.location.href = event.currentTarget.href;
+// 		});			
+// 	});
+// 	$("a[target=_blank]").click(function(event) { // blank target
+// 		//DoTheAjax
+// 	});
+// 	
+// });
+// </script>
+// <a href="http://www.google.com" target="_blank">Hello...</a> 
+
 ?>
-
-
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-/*	$("a").not(".preset_color").click(function(x) {
-		console.log(x);
-	});*/
-
-	$("a").not('a[target=_blank]').click(function(event) { // normal link		
-		event.preventDefault();  //stop the link from going through
-		data = new Object();
-		data['treatment'] = '{$treatment}';
-		$.post('clicklogger.php',data,function() {
-			window.location.href = event.currentTarget.href;
-		});			
-	});
-	$("a[target=_blank]").click(function(event) { // blank target
-		//DoTheAjax
-	});
-	
-});
-</script>
-<a href="http://www.google.com" target="_blank">Hello...</a>
